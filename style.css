@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+  font-family: Permanent Marker;
+  color: white;
+}
+
+.tb {
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  cursor: pointer;
+}
+
+.cell {
+  border: 2px dashed;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+}
+
+.game-over {
+  border: None;
+}
+
+.game-win {
+  background-color: #3f4b61;
+}
+
+.player_1{
+  left: 150px;
+}
+
+.player_2{
+  right: 150px;
+}
+
+.ex{
+  padding-left:10px;
+  height: 150px;
+  width: 200px;
+  border: 2px dashed;
+  border-radius: 15px;
+  position: absolute;
+  top: 120px;
+}
+
+.score{
+  padding-left: 80px;
+  font-size: 30px;
+}
+
+
+.myButton {
+	background-color:#768d87;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+  position: absolute;
+  bottom: 30px;
+  left:580px;
+}
+.myButton:hover {
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
